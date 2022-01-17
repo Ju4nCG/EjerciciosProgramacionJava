@@ -38,7 +38,7 @@ public class Asignatura {
     
     /*Metodo*/
     public String datos(){
-        String datos=   "Alumno: " + this.nombre +"\n"+
+        String datos=   "Materia: " + this.nombre +"\n"+
                         "Codigo: " + this.codigo +"\n"+
                         "Curso: " + this.curso;
         return datos;      
